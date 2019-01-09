@@ -3,7 +3,6 @@ import './App.css';
 import Title from "./components/Title";
 import Selection from "./components/Selection";
 import Text from "./components/Text";
-import $ from "jquery/dist/jquery.min.js"
 // http://www.randomtext.me/api/h1/15
 let select="",radio="";
 
@@ -64,7 +63,6 @@ class App extends Component {
                 {radio!="no" && this.state.text}
         </div>
         <h1 id="error" className="col-6 mx-auto mt-5 text-danger text-center"></h1>
-        <div id="footer"></div>
         {this.state.chk && <Text/>}
        
       </div>

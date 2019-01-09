@@ -1,13 +1,8 @@
 import React from "react";
-import $ from "jquery/dist/jquery.min.js"
 
 
 
 class Text extends React.Component{
-
-    constructor(props){
-        super(props);
-    }
 
     copyText= ()=>{
             document.execCommand('copy');
